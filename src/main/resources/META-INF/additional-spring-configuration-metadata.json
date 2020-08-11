@@ -1,0 +1,13 @@
+{
+  "properties": [
+    {
+      "name": "sspring.datasource.username",
+      "type": "java.lang.String",
+      "description": "Description for sspring.datasource.username."
+    },
+    {
+      "name": "tabula.clean-up",
+      "type": "java.lang.String",
+      "description": "Description for tabula.clean-up."
+    }
+  ] }
