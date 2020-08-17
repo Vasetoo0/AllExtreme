@@ -1,8 +1,8 @@
 spring:
   datasource:
-    url: "${JDBC_DATABASE_URL:jdbc:postgresql}://${MYSQL_HOST:localhost}:${MYSQL_PORT:3306}/all_extreme?serverTimezone=UTC&characterEncoding=UTF-8&sslMode=DISABLED&createDatabaseIfNotExist=true"
-    username: "${JDBC_DATABASE_USERNAME:root}"
-    password: "${JDBC_DATABASE_PASSWORD:1234}"
+    url: "${JDBC_DATABASE_URL:jdbc:postgresql://localhost:3306/all_extreme?serverTimezone=UTC&characterEncoding=UTF-8&createDatabaseIfNotExist=true}"
+    username: "${JDBC_DATABASE_USERNAME}"
+    password: "${JDBC_DATABASE_PASSWORD}"
     continueOnError: true
 #    driver-class-name: "com.mysql.cj.jdbc.Driver"
     hikari:
@@ -49,7 +49,7 @@ server:
   compression:
     enabled: true
     mime-types: text/html,text/xml,text/plain,text/css,application/javascript,application/json
-  port: ${PORT:8080}
+#  port: ${PORT:8080}
 logging:
   level:
     org.springframework.security: DEBUG
