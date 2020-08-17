@@ -1,6 +1,6 @@
 package softuni.javaweb.springproject.utils.cloudinary.service.impl;
 
-import com.cloudinary.Cloudinary;
+import com.cloudinary.*;
 import com.cloudinary.utils.ObjectUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
