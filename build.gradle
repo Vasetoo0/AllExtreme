@@ -71,8 +71,8 @@ dependencies {
 	}
 
 	testImplementation 'org.springframework.security:spring-security-test'
-	testImplementation "org.modelmapper:modelmapper:${modelmapperVersion}"
-	testImplementation "com.cloudinary:cloudinary-http44:${cloudinaryVersion}"
+//	testImplementation "org.modelmapper:modelmapper:${modelmapperVersion}"
+//	testImplementation "com.cloudinary:cloudinary-http44:${cloudinaryVersion}"
 	testRuntime ('org.hsqldb:hsqldb')
 }
 
