@@ -33,6 +33,7 @@ ext {
 	bouncyCastleVersion = '1.64'
 	cloudinaryVersion = '1.14.0'
 	junit5Version = '5.0.0-ALPHA'
+	postgresqlVersion = '42.2.14'
 }
 
 repositories {
@@ -48,6 +49,7 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-validation'
 	implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
+	implementation "org.postgresql:postgresql:${postgresqlVersion}"
 
 	compileOnly "org.webjars:webjars-locator:${webjarsLocatorVersion}"
 	compileOnly "org.webjars:jquery:${jQueryVersion}"
@@ -66,14 +68,14 @@ dependencies {
 
 	annotationProcessor "org.springframework.boot:spring-boot-configuration-processor"
 
-	testImplementation('org.springframework.boot:spring-boot-starter-test') {
+	testRuntimeOnly ('org.springframework.boot:spring-boot-starter-test') {
 		exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
 	}
 
-	testImplementation 'org.springframework.security:spring-security-test'
-//	testImplementation "org.modelmapper:modelmapper:${modelmapperVersion}"
-//	testImplementation "com.cloudinary:cloudinary-http44:${cloudinaryVersion}"
-	testRuntime ('org.hsqldb:hsqldb')
+	testRuntimeOnly 'org.springframework.security:spring-security-test'
+	testRuntimeOnly "org.modelmapper:modelmapper:${modelmapperVersion}"
+	testRuntimeOnly "com.cloudinary:cloudinary-http44:${cloudinaryVersion}"
+	testRuntimeOnly ('org.hsqldb:hsqldb')
 }
 
 test {
