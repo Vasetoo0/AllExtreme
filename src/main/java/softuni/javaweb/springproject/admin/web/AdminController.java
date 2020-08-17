@@ -1,7 +1,6 @@
 package softuni.javaweb.springproject.admin.web;
 
 import org.modelmapper.*;
-import org.springframework.security.access.method.P;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

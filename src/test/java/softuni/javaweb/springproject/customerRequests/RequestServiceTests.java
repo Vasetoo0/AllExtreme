@@ -7,7 +7,7 @@ import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.mockito.junit.jupiter.MockitoExtension;
-import org.modelmapper.ModelMapper;
+import org.modelmapper.*;
 import softuni.javaweb.springproject.help.model.binding.RequestAddBindingModel;
 import softuni.javaweb.springproject.help.model.entity.Request;
 import softuni.javaweb.springproject.help.model.service.RequestServiceModel;

@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
-import org.modelmapper.ModelMapper;
+import org.modelmapper.*;
 import org.springframework.boot.test.mock.mockito.MockBean;
 import softuni.javaweb.springproject.enums.Sport;
 import softuni.javaweb.springproject.event.model.binding.EventAddBindingModel;

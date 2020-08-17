@@ -9,7 +9,7 @@ import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
 import org.mockito.junit.jupiter.MockitoSettings;
 import org.mockito.quality.Strictness;
-import org.modelmapper.ModelMapper;
+import org.modelmapper.*;
 import softuni.javaweb.springproject.comment.model.entity.Comment;
 import softuni.javaweb.springproject.comment.model.service.CommentServiceModel;
 import softuni.javaweb.springproject.comment.repository.CommentRepository;

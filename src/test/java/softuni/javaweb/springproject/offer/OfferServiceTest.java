@@ -7,7 +7,7 @@ import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.mockito.junit.jupiter.MockitoExtension;
-import org.modelmapper.ModelMapper;
+import org.modelmapper.*;
 import softuni.javaweb.springproject.enums.Sport;
 import softuni.javaweb.springproject.offer.model.binding.OfferAddBindingModel;
 import softuni.javaweb.springproject.offer.model.entity.Offer;
