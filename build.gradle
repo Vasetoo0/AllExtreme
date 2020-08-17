@@ -31,7 +31,7 @@ ext {
 	bootstrapVersion = '4.5.0'
 	modelmapperVersion = '2.3.8'
 	bouncyCastleVersion = '1.64'
-	cloudinaryVersion = '1.14.0'
+	cloudinaryVersion = '1.1.3'
 	junit5Version = '5.0.0-ALPHA'
 }
 
