@@ -11,7 +11,6 @@ import org.modelmapper.*;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
-import softuni.javaweb.springproject.offer.model.entity.Offer;
 import softuni.javaweb.springproject.offer.model.view.AllOfferViewModel;
 import softuni.javaweb.springproject.offer.model.view.OfferViewModel;
 import softuni.javaweb.springproject.offer.service.OfferService;

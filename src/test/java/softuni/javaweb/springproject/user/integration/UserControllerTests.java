@@ -15,7 +15,6 @@ import softuni.javaweb.springproject.user.model.view.UserViewModel;
 import softuni.javaweb.springproject.user.service.UserService;
 import softuni.javaweb.springproject.utils.cloudinary.service.CloudinaryService;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import static org.mockito.Mockito.when;
