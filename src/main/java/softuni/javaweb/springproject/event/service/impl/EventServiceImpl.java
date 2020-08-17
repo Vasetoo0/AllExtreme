@@ -1,10 +1,8 @@
 package softuni.javaweb.springproject.event.service.impl;
 
-import org.hibernate.ObjectNotFoundException;
-import org.modelmapper.ModelMapper;
+import org.modelmapper.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import softuni.javaweb.springproject.destination.model.binding.DestinationAddBindingModel;
 import softuni.javaweb.springproject.event.model.binding.EventAddBindingModel;
 import softuni.javaweb.springproject.event.model.entity.Event;
 import softuni.javaweb.springproject.event.model.service.EventServiceModel;

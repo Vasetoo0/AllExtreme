@@ -1,6 +1,6 @@
 package softuni.javaweb.springproject.user.service.impl;
 
-import org.modelmapper.ModelMapper;
+import org.modelmapper.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

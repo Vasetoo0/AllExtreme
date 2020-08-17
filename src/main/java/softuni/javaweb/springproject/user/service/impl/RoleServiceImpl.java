@@ -1,6 +1,6 @@
 package softuni.javaweb.springproject.user.service.impl;
 
-import org.modelmapper.ModelMapper;
+import org.modelmapper.*;
 import org.springframework.stereotype.Service;
 import softuni.javaweb.springproject.user.model.entity.Role;
 import softuni.javaweb.springproject.user.repository.RoleRepository;

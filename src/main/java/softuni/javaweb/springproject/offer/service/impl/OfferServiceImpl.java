@@ -1,7 +1,6 @@
 package softuni.javaweb.springproject.offer.service.impl;
 
-import org.hibernate.ObjectNotFoundException;
-import org.modelmapper.ModelMapper;
+import org.modelmapper.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import softuni.javaweb.springproject.offer.model.binding.OfferAddBindingModel;
@@ -15,7 +14,6 @@ import softuni.javaweb.springproject.offer.service.OfferService;
 import softuni.javaweb.springproject.user.service.UserService;
 
 import javax.persistence.EntityNotFoundException;
-import java.time.Instant;
 import java.time.LocalDateTime;
 import java.time.temporal.ChronoUnit;
 import java.util.List;
