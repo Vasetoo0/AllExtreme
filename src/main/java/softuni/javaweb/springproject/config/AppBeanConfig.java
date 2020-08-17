@@ -1,6 +1,6 @@
 package softuni.javaweb.springproject.config;
 
-import org.modelmapper.ModelMapper;
+import org.modelmapper.*;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
