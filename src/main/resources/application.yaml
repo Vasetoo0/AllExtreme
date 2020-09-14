@@ -1,7 +1,7 @@
 spring:
   datasource:
-#    url: "${JDBC_DATABASE_URL:jdbc:postgresql://localhost:5432/all_extreme?serverTimezone=UTC&characterEncoding=UTF-8&createDatabaseIfNotExist=true}"
-    url: "${DATABASE_URL}"
+#    url: "${JDBC_DATABASE_URL:jdbc:postgresql://localhost:3306/all_extreme?serverTimezone=UTC&characterEncoding=UTF-8&sslMode=ENABLED&createDatabaseIfNotExist=true}"
+    url: "${JDBC_DATABASE_URL}"
     username: "${JDBC_DATABASE_USERNAME}:root"
     password: "${JDBC_DATABASE_PASSWORD}:1234"
     continueOnError: true
