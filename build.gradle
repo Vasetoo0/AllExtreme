@@ -33,7 +33,7 @@ ext {
 	bouncyCastleVersion = '1.64'
 	cloudinaryVersion = '1.14.0'
 	junit5Version = '5.0.0-ALPHA'
-	postgresqlVersion = '42.2.14'
+	postgresqlVersion = '42.2.18'
 }
 
 repositories {
@@ -62,9 +62,10 @@ dependencies {
 	// https://mvnrepository.com/artifact/com.cloudinary/cloudinary-core
 	compileOnly "com.cloudinary:cloudinary-http44:${cloudinaryVersion}"
 
-	developmentOnly 'org.springframework.boot:spring-boot-devtools'
+	// https://mvnrepository.com/artifact/org.postgresql/postgresql
+	compileOnly "org.postgresql:postgresql:${postgresqlVersion}"
 
-	runtimeOnly 'mysql:mysql-connector-java'
+	developmentOnly 'org.springframework.boot:spring-boot-devtools'
 
 	annotationProcessor "org.springframework.boot:spring-boot-configuration-processor"
 
